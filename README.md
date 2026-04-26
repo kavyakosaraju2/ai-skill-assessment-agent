@@ -87,6 +87,8 @@ Instead of relying only on static resume analysis, this system introduces an **a
 ---
 
 ## System Architecture
+This system is designed as an end-to-end AI-driven pipeline that transforms a static resume into an interactive skill assessment and learning experience. It begins with a Streamlit-based frontend where the user uploads a resume and provides a job description. The resume is parsed to extract relevant candidate information, while the job description is analyzed to identify required skills and expectations. These inputs are then processed by an LLM-powered analysis engine, which compares the candidate’s profile with job requirements to generate a skill match and gap analysis. Based on the identified gaps, the system dynamically generates interview questions and initiates an adaptive interview process, where the difficulty of questions adjusts in real time according to the candidate’s performance. Each response is evaluated using the LLM based on correctness, clarity, and depth, producing a score along with detailed feedback. The system aggregates these results to identify weak skill areas and finally generates a personalized learning roadmap, including reasons for gaps, bridge skills, structured weekly plans, and curated resources. This architecture ensures a seamless flow from assessment to improvement, making the system both evaluative and developmental rather than just a static screening tool.
+
 <img width="1536" height="1024" alt="Architecture_diagram" src="https://github.com/user-attachments/assets/dfb3e589-ba56-4e2a-85dd-c1a136ce0433" />
 
 
