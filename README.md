@@ -1,13 +1,13 @@
-# 🚀 AI-Powered Skill Assessment & Personalized Learning Plan Agent
+# AI-Powered Skill Assessment & Personalized Learning Plan Agent
 
-## 📌 Overview
+## Overview
 
 Resumes often reflect what candidates *claim* to know, but not how well they actually understand those skills.
 This project solves that gap by building an **AI-powered agent** that evaluates real proficiency through an adaptive interview and generates a **personalized learning roadmap**.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Given a **Job Description (JD)** and a **candidate’s resume**, build a system that:
 
@@ -17,11 +17,11 @@ Given a **Job Description (JD)** and a **candidate’s resume**, build a system 
 
 ---
 
-## 💡 Solution Approach
+## Solution Approach
 
 Instead of relying only on static resume analysis, this system introduces an **adaptive AI interviewer**.
 
-### 🔹 Core Idea
+###  Core Idea
 
 1. Analyze resume vs job requirements
 2. Ask targeted questions
@@ -31,9 +31,9 @@ Instead of relying only on static resume analysis, this system introduces an **a
 
 ---
 
-## ⚙️ Key Features
+##  Key Features
 
-### 🧠 Resume & Job Description Analysis
+###  Resume & Job Description Analysis
 
 * Extracts required skills from JD
 * Analyzes candidate profile using LLM
@@ -41,7 +41,7 @@ Instead of relying only on static resume analysis, this system introduces an **a
 
 ---
 
-### 🤖 Adaptive AI Interview Agent
+### Adaptive AI Interview Agent
 
 * Generates skill-based interview questions
 * Dynamically adjusts difficulty:
@@ -52,7 +52,7 @@ Instead of relying only on static resume analysis, this system introduces an **a
 
 ---
 
-### 📊 Intelligent Scoring System
+### Intelligent Scoring System
 
 * Evaluates answers based on:
 
@@ -67,14 +67,14 @@ Instead of relying only on static resume analysis, this system introduces an **a
 
 ---
 
-### 📉 Skill Gap Identification
+### Skill Gap Identification
 
 * Tracks performance per skill
 * Identifies weakest areas
 
 ---
 
-### 🚀 Personalized Learning Roadmap
+### Personalized Learning Roadmap
 
 * Focuses on weakest skills
 * Generates:
@@ -86,11 +86,11 @@ Instead of relying only on static resume analysis, this system introduces an **a
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 <img width="1536" height="1024" alt="Architecture_diagram" src="https://github.com/user-attachments/assets/dfb3e589-ba56-4e2a-85dd-c1a136ce0433" />
 
 
-### 🔍 Pipeline
+### Pipeline
 
 ```
 Resume + Job Description
@@ -110,7 +110,7 @@ Personalized Learning Plan
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ### 1. Input
 
@@ -148,7 +148,7 @@ Personalized Learning Plan
 
 ---
 
-## ⚖️ Design Decisions & Trade-offs
+## Design Decisions & Trade-offs
 
 | Decision                        | Reason                                             |
 | ------------------------------- | -------------------------------------------------- |
@@ -159,7 +159,7 @@ Personalized Learning Plan
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Python**
 * **Streamlit** (UI & App)
@@ -169,7 +169,7 @@ Personalized Learning Plan
 
 ---
 
-## ▶️ Running the Project Locally
+## Running the Project Locally
 
 ### 1. Clone Repository
 
@@ -206,25 +206,25 @@ streamlit run app.py
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 👉 [Add your demo video link here]
 
 ---
 
-## 📊 Sample Outputs
+## Sample Outputs
 
-### 🔹 AI Analysis
+### AI Analysis
 
 * Candidate summary
 * Skill match vs gap
 
-### 🔹 Interview
+### Interview
 
 * Dynamic question flow
 * Real-time scoring
 
-### 🔹 Learning Plan
+### Learning Plan
 
 * Personalized roadmap
 * Weekly breakdown
@@ -233,17 +233,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 Key Highlights
-
-* ✅ Works for **any job description & resume**
-* ✅ Adaptive AI interviewer (core innovation)
-* ✅ Realistic scoring system
-* ✅ Actionable learning roadmap
-* ✅ End-to-end intelligent pipeline
-
----
-
-## 🔮 Future Improvements
+## Future Improvements
 
 * Semantic skill matching using embeddings
 * Multi-turn conversational memory
@@ -252,7 +242,7 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Kavya Kosaraju**
 B.E. Information Technology
@@ -260,6 +250,6 @@ Hyderabad, India
 
 ---
 
-## ⭐ Final Note
+##  Final Note
 
 This project demonstrates how AI can move beyond static resume screening to **actively evaluate real skills and guide candidates toward improvement**, making hiring and learning more intelligent and effective.
