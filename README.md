@@ -212,6 +212,10 @@ streamlit run app.py
 
 ---
 
+## Deployed URL
+https://ai-skill-assessment-agent-4cvq7ramkp4ypichknl6na.streamlit.app/
+
+---
 ## Sample Outputs
 
 ### AI Analysis
